@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(195, 219, 249);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2{
+margin: 0;
+color: rgb(107, 78, 134);
+}
+.item{
+    background-color: rgb(228, 193, 255);
+    padding: 30px;
+    border-radius: 10%;
+}
+a{
+    background-color: rgb(177, 130, 222);
+    text-decoration: none;
+    padding: 8px 12px;
+    display: inline-block;
+    border-radius: 9px;
+    color: rgb(79, 52, 104);
+}
+.grid{
+    display: grid;
+    grid-template-columns: 300px 300px;
+    gap: 20px;
+    justify-content: space-between;
+    align-content: end;
+    height: 1500px;
+}
+img{
+    width: 900px;
+    max-width: 100%;
+    border-radius: 10%;
+}
+p{
+    color: rgb(143, 91, 133);
+}
+h1{
+    color: rgb(103, 174, 174);
+}

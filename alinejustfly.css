@@ -1,0 +1,26 @@
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+ justify-items: center;
+align-items: end;
+}
+h1{
+    margin: 0%;
+}
+.preço{
+    grid-column: 2;
+    background-color: black;
+    color: rgb(225, 225, 233);
+}
+img{
+    width: 900px;
+    max-width: 100%;
+    grid-column: 1/3;
+}
+a{
+    background-color: blueviolet; 
+    color: aliceblue;
+    font-size: 30px;
+    text-decoration: none;
+}
